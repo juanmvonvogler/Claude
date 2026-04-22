@@ -1,0 +1,18 @@
+# Environments & secrets
+.env
+.env.*
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+
+# OS junk
+.DS_Store
+
+# Temp & scratch
+/tmp
+
+# Claude tooling
+.claude/
