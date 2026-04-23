@@ -17,7 +17,7 @@ The separation is intentional. It lets capabilities be versioned, shared, forked
 - `foundation/` — thin universal layer inherited by every agent
 - `agents/` — conversational capability agents, each with its own `soul/` for identity
 - `skills/` — reusable capability modules called by agents
-- `pipelines/` — multi-stage workflows chaining agents and skills
+- `flows/` — multi-stage workflows chaining agents and skills
 - `protocols/` — contracts and interfaces between agents
 - `templates/` — starting points for creating new agents and skills
 - `docs/` — documentation about the framework itself
