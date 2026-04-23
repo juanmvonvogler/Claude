@@ -1,6 +1,6 @@
 # agents/
 
-Conversational capability agents — entities you interact with directly in a session. Each subdirectory is one agent with a `SKILL.md` entry point and an optional `scripts/` folder for helpers.
+Conversational capability agents — entities you interact with directly in a session. Each subdirectory is one agent with a `SKILL.md` entry point, its own `soul/` folder for identity (overlaying the shared `foundation/`), and an optional `scripts/` folder for helpers.
 
 **What belongs here:** agents defined by their role and working style (e.g., coding partner, researcher, orchestrator). Each one should be a pure capability — its behavior is defined without reference to any specific project or user.
 
